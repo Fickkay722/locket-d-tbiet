@@ -1,12 +1,9 @@
-[General] skip-proxy = locket.com
+[General] skip-proxy = locket.com secure = true
 
 [Rule] DOMAIN-SUFFIX,locket.com,DIRECT
 
 [URL Rewrite] ^https://locket.com/premium$ https://locket.com/gold
 
-[Header Rewrite] locket.com:
-
-User-Agent: Locket/Gold
-
+[Header Rewrite] locket.com: User-Agent: Locket/Gold
 
 [MITM] hostname = locket.com
