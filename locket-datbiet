@@ -1,4 +1,5 @@
-[General] skip-proxy = locket.com secure = true
+[General] skip-proxy = locket.com 
+secure = true
 
 [Rule] DOMAIN-SUFFIX,locket.com,DIRECT
 
